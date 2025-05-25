@@ -19,7 +19,6 @@ public class RandomCharacter {
 		return getRandomCharacter('\u0000', '\uFFFF');
 	}
 
-	// ✅ متد main برای تست متدها
 	public static void main(String[] args) {
 		System.out.println("Random lowercase letter: " + getRandomLowerCaseLetter());
 		System.out.println("Random uppercase letter: " + getRandomUpperCaseLetter());
